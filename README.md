@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/koopjs/koop-provider-sample.svg?branch=master)](https://travis-ci.org/koopjs/koop-provider-sample) [![Greenkeeper badge](https://badges.greenkeeper.io/koopjs/koop-provider-sample.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/gavinr/koop-provider-gbfs-bikeshare.svg?branch=master)](https://travis-ci.org/gavinr/koop-provider-gbfs-bikeshare) [![Greenkeeper badge](https://badges.greenkeeper.io/gavinr/koop-provider-gbfs-bikeshare.svg)](https://greenkeeper.io/)
 
 
 # Koop Provider GBFS Bikeshare
