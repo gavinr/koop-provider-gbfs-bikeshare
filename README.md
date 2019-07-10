@@ -1,23 +1,18 @@
 [![Build Status](https://travis-ci.org/koopjs/koop-provider-sample.svg?branch=master)](https://travis-ci.org/koopjs/koop-provider-sample) [![Greenkeeper badge](https://badges.greenkeeper.io/koopjs/koop-provider-sample.svg)](https://greenkeeper.io/)
 
 
-# Koop Sample Provider
+# Koop Provider GBFS Bikeshare
 
-This is a sample that demonstrates how to build a Koop Provider. You can clone this project, and use it to start a new provider. This sample can run a local server, deploy to AWS Lambda or Docker for testing and operations. Once the provider is published to NPM, then it can be used with other Koop providers and outputs in a larger project.
-
-
-The data source in this example is the [TriMet Bus API](https://developer.trimet.org). You can see this provider in action [here](http://dcdev.maps.arcgis.com/home/item.html?id=2603e7e3f10742f78093edf8ea2adfd8#visualize).
-
-Full documentation is provided [here](https://koopjs.github.io/docs/usage/provider).
+Exposes locations of bikeshare bicycles that conform to the [GBFS](https://github.com/NABSA/gbfs).
 
 ## Getting started
 
 1. Open `index.js` and change `provider.name` to a unique name
-1. Open `config/default.json` with any configurable parameters
-1. Open `model.js` and implement `getData` to call your provider and return GeoJSON
-1. Install dependencies `npm install`
-1. Run a local server `npm start`
-1. Add tests to `test/`
+2. Open `config/default.json` with any configurable parameters
+3. Open `model.js` and implement `getData` to call your provider and return GeoJSON
+4. Install dependencies `npm install`
+5. Run a local server `npm start`
+6. Add tests to `test/`
 
 ## Koop provider file structure
 

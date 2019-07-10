@@ -23,43 +23,44 @@ function Model (koop) {}
 // req.params.method
 Model.prototype.getData = function (req, callback) {
   // const key = config.gdfs.key
-  const system = req.params.host;
-  const systemInfo = config.gdfs.systems[system];
+  const system = req.params.host
+  const systemInfo = config.gdfs.systems[system]
 
   // Call the remote API with our developer key
   request(systemInfo['Auto-Discovery URL'], (err, res, body) => {
     if (err) return callback(err)
 
-    let feeds = '';
-    if(body.data.hasOwnProperty('en')) {
-      feeds = body.data.en.feeds;
+    let feeds = ''
+    if (body.data.hasOwnProperty('en')) {
+      feeds = body.data.en.feeds
     } else {
-      feeds = body.data.feeds;
+      feeds = body.data.feeds
     }
-    
+
     const freeBikesInfo = feeds.find((feedInfo) => {
-      return feedInfo.name === 'free_bike_status';
-    });
+      return feedInfo.name === 'free_bike_status'
+    })
 
     request(freeBikesInfo.url, (err, bikesRes, bikesBody) => {
-      
+      if (err) {
+        callback(err)
+      }
       // translate the response into geojson
-      const geojson = translate(bikesBody.data);
-  
+      const geojson = translate(bikesBody.data)
+
       // Optional: cache data for 10 seconds at a time by setting the ttl or "Time to Live"
       geojson.ttl = 60
-  
+
       // Optional: Service metadata and geometry type
       geojson.metadata = {
         title: 'free_bike_status',
         description: `Generated from ${freeBikesInfo.url}`,
         geometryType: 'Point' // Default is automatic detection in Koop
       }
-  
+
       // hand off the data to Koop
       callback(null, geojson)
-    });
-
+    })
   })
 }
 
@@ -88,4 +89,4 @@ function formatFeature (inputFeature) {
   return feature
 }
 
-module.exports = Model;
+module.exports = Model
