@@ -1,5 +1,1602 @@
 {
-  "trimet": {
-    "key": "8A0EBB788E8205888807BAC97"
+  "gdfs": {
+    "systems": {
+      "ABU": {
+        "Country Code": "AE",
+        "Name": "ADCB Bikeshare",
+        "Location": "Abu Dhabi, AE",
+        "URL": "https://www.bikeshare.ae/",
+        "Auto-Discovery URL": "https://api-core.bikeshare.ae/gbfs/gbfs.json"
+      },
+      "biketobike": {
+        "Country Code": "AR",
+        "Name": "MiBiciTuBici",
+        "Location": "Rosario, Santa Fe, AR",
+        "URL": "https://www.mibicitubici.gob.ar/",
+        "Auto-Discovery URL": "https://www.mibicitubici.gob.ar/opendata/gbfs.json"
+      },
+      "nextbike_na": {
+        "Country Code": "AT",
+        "Name": "nextbike Burgenland Austria",
+        "Location": "Neusiedler See, AT",
+        "URL": "https://www.nextbike.at/xx/burgenland/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_na/gbfs.json"
+      },
+      "nextbike_ka": {
+        "Country Code": "AT",
+        "Name": "nextbike Klagenfurt Austria",
+        "Location": "Klagenfurt, AT",
+        "URL": "https://www.nextbike.at/xx/klagenfurt/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ka/gbfs.json"
+      },
+      "nextbike_la": {
+        "Country Code": "AT",
+        "Name": "nextbike Niederösterreich Austria",
+        "Location": "AT",
+        "URL": "https://www.nextbike.at/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_la/gbfs.json"
+      },
+      "nextbike_ta": {
+        "Country Code": "AT",
+        "Name": "nextbike Tirol Austria",
+        "Location": "Serfaus, AT",
+        "URL": "http://www.serfaus.gv.at/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ta/gbfs.json"
+      },
+      "nextbike_si": {
+        "Country Code": "AT",
+        "Name": "Stadtrad Innsbruck Austria",
+        "Location": "Innsbruck, AT",
+        "URL": "https://stadtrad.ivb.at/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_si/gbfs.json"
+      },
+      "monash_bike_share": {
+        "Country Code": "AU",
+        "Name": "Monash Bike Share",
+        "Location": "Monash University, Melbourne, AU",
+        "URL": "https://monashbikeshare.com/",
+        "Auto-Discovery URL": "https://monashbikeshare.com/opendata/gbfs.json"
+      },
+      "greenbike_aruba": {
+        "Country Code": "AW",
+        "Name": "Greenbike Aruba",
+        "Location": "Aruba",
+        "URL": "http://greenbikearuba.com",
+        "Auto-Discovery URL": "https://aru.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "nextbike_bj": {
+        "Country Code": "BA",
+        "Name": "BL bike",
+        "Location": "Banja Luka, BA",
+        "URL": "https://www.nextbike.ba/xx/banjaluka/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bj/gbfs.json"
+      },
+      "nextbike_ba": {
+        "Country Code": "BA",
+        "Name": "Sarajevo Bosnia and Herzegovina",
+        "Location": "Sarajevo, BA",
+        "URL": "https://www.nextbike.ba/xx/sarajevo/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ba/gbfs.json"
+      },
+      "nextbike_ct": {
+        "Country Code": "BA",
+        "Name": "Tuzla",
+        "Location": "Tuzla, BA",
+        "URL": "https://www.nextbike.ba/xx/tuzla/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ct/gbfs.json"
+      },
+      "bike_pe": {
+        "Country Code": "BR",
+        "Name": "Bike Itaú - Pernambuco",
+        "Location": "Recife, BR",
+        "URL": "https://bikeitau.com.br/bikepe",
+        "Auto-Discovery URL": "https://rec.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bike_poa": {
+        "Country Code": "BR",
+        "Name": "Bike Itaú - Poa",
+        "Location": "Porto Alegre, BR",
+        "URL": "https://bikeitau.com.br/bikepoa",
+        "Auto-Discovery URL": "https://poa.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bike_rio": {
+        "Country Code": "BR",
+        "Name": "Bike Itaú - Rio",
+        "Location": "Rio de Janeiro, BR",
+        "URL": "https://bikeitau.com.br/bikerio/",
+        "Auto-Discovery URL": "https://riodejaneiro.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bike_salvador": {
+        "Country Code": "BR",
+        "Name": "Bike Itaú - Salvador",
+        "Location": "Salvador, BR",
+        "URL": "https://bikeitau.com.br/bikesalvador/",
+        "Auto-Discovery URL": "https://salvador.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bike_sampa": {
+        "Country Code": "BR",
+        "Name": "Bike Itaú - Sampa",
+        "Location": "São Paulo, BR",
+        "URL": "https://bikeitau.com.br/bikesampa",
+        "Auto-Discovery URL": "https://saopaulo.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bike_vv": {
+        "Country Code": "BR",
+        "Name": "Bike VV",
+        "Location": "Vila Velha, BR",
+        "URL": "https://www.bikevv.com.br/",
+        "Auto-Discovery URL": "https://vilavelha.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bike_share_toronto": {
+        "Country Code": "CA",
+        "Name": "Bike Share Toronto",
+        "Location": "Toronto, ON",
+        "URL": "https://www.bikesharetoronto.com/",
+        "Auto-Discovery URL": "https://tor.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "Bixi_MTL": {
+        "Country Code": "CA",
+        "Name": "BIXI-Montreal",
+        "Location": "Montreal, QC",
+        "URL": "https://www.bixi.com/",
+        "Auto-Discovery URL": "https://api-core.bixi.com/gbfs/gbfs.json"
+      },
+      "mobi_bikes": {
+        "Country Code": "CA",
+        "Name": "Mobi Bike Share",
+        "Location": "Vancouver, BC",
+        "URL": "https://www.mobibikes.ca/",
+        "Auto-Discovery URL": "https://vancouver-gbfs.smoove.pro/gbfs/gbfs.json"
+      },
+      "nextbike_ca": {
+        "Country Code": "CA",
+        "Name": "nextbike Canada",
+        "Location": "Victoria, CA",
+        "URL": "https://canada.nextbike.net/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ca/gbfs.json"
+      },
+      "sobi_hamilton": {
+        "Country Code": "CA",
+        "Name": "Sobi Hamilton",
+        "Location": "Hamilton Ontario",
+        "URL": "https://hamilton.socialbicycles.com/",
+        "Auto-Discovery URL": "https://hamilton.socialbicycles.com/opendata/gbfs.json"
+      },
+      "nextbike_ch": {
+        "Country Code": "CH",
+        "Name": "nextbike Switzerland",
+        "Location": "CH",
+        "URL": "https://www.nextbike.ch/xx/sursee/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ch/gbfs.json"
+      },
+      "nextbike_cy": {
+        "Country Code": "CY",
+        "Name": "nextbike Cyprus",
+        "Location": "CY",
+        "URL": "https://www.nextbike.com.cy/xx/limassol/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_cy/gbfs.json"
+      },
+      "velespeed": {
+        "Country Code": "CY",
+        "Name": "Velespeed",
+        "Location": "Nicosia, CY",
+        "URL": "https://en.velespeed.net/",
+        "Auto-Discovery URL": "https://nicosia.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "nextbike_cz": {
+        "Country Code": "CZ",
+        "Name": "nextbike Czech Republic",
+        "Location": "Prostejov, CZ",
+        "URL": "https://nextbikeczech.com/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_cz/gbfs.json"
+      },
+      "velonet_cz": {
+        "Country Code": "CZ",
+        "Name": "Velonet",
+        "Location": "Prague - Brno, CZ",
+        "URL": "http://velonet.cz/",
+        "Auto-Discovery URL": "http://velonet.cz/opendata/gbfs.json"
+      },
+      "nextbike_cb": {
+        "Country Code": "DE",
+        "Name": "Berlin-Buch Campus",
+        "Location": "Berlin-Buch, DE",
+        "URL": "https://www.nextbike.de/xx/berlin-buch/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_cb/gbfs.json"
+      },
+      "nextbike_bf": {
+        "Country Code": "DE",
+        "Name": "Bonn nextbike",
+        "Location": "Bonn, DE",
+        "URL": "https://www.nextbike.de/xx/bonn/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bf/gbfs.json"
+      },
+      "nextbike_bn": {
+        "Country Code": "DE",
+        "Name": "Deezer nextbike",
+        "Location": "Berlin, DE",
+        "URL": "https://www.deezernextbike.de/xx/berlin/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bn/gbfs.json"
+      },
+      "nextbike_kg": {
+        "Country Code": "DE",
+        "Name": "KVB Rad Germany",
+        "Location": "Köln, DE",
+        "URL": "https://www.kvb-rad.de/xx/koeln/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_kg/gbfs.json"
+      },
+      "nextbike_fg": {
+        "Country Code": "DE",
+        "Name": "KVV.nextbike",
+        "Location": "Karlsruhe, DE",
+        "URL": "https://www.kvv-nextbike.de/xx/karlsruhe/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_fg/gbfs.json"
+      },
+      "nextbike_mr": {
+        "Country Code": "DE",
+        "Name": "metropolradruhr Germany",
+        "Location": "DE",
+        "URL": "https://www.metropolradruhr.de/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_mr/gbfs.json"
+      },
+      "nextbike_ef": {
+        "Country Code": "DE",
+        "Name": "nextbike Erfurt",
+        "Location": "Erfurt, DE",
+        "URL": "https://www.nextbike.de/xx/erfurt/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ef/gbfs.json"
+      },
+      "nextbike_ff": {
+        "Country Code": "DE",
+        "Name": "nextbike Frankfurt",
+        "Location": "Frankfurt, DE",
+        "URL": "https://www.nextbike.de/xx/frankfurt/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ff/gbfs.json"
+      },
+      "nextbike_de": {
+        "Country Code": "DE",
+        "Name": "nextbike Germany",
+        "Location": "DE",
+        "URL": "https://www.nextbike.de/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_de/gbfs.json"
+      },
+      "nextbike_ng": {
+        "Country Code": "DE",
+        "Name": "nextbike Gießen",
+        "Location": "Gießen, DE",
+        "URL": "https://www.nextbike.de/xx/giessen/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ng/gbfs.json"
+      },
+      "nextbike_dk": {
+        "Country Code": "DE",
+        "Name": "nextbike Kassel",
+        "Location": "Kassel, DE",
+        "URL": "https://www.nextbike.de/xx/kassel/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_dk/gbfs.json"
+      },
+      "nextbike_lr": {
+        "Country Code": "DE",
+        "Name": "nextbike Lahr (Pedelecs)",
+        "Location": "Lahr, DE",
+        "URL": "https://www.nextbike.de/xx/lahr/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_lr/gbfs.json"
+      },
+      "nextbike_le": {
+        "Country Code": "DE",
+        "Name": "nextbike Leipzig",
+        "Location": "Leipzig, DE",
+        "URL": "https://www.nextbike.de/xx/leipzig/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_le/gbfs.json"
+      },
+      "nextbike_li": {
+        "Country Code": "DE",
+        "Name": "nextbike Lippstadt",
+        "Location": "Lippstadt, DE",
+        "URL": "https://www.nextbike.de/xx/lippstadt/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_li/gbfs.json"
+      },
+      "nextbike_nb": {
+        "Country Code": "DE",
+        "Name": "NorisBike Germany",
+        "Location": "Nürnberg, DE",
+        "URL": "https://www.norisbike.de/xx/nuernberg/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_nb/gbfs.json"
+      },
+      "nextbike_sn": {
+        "Country Code": "DE",
+        "Name": "Santander nextbike Mönchengladbach",
+        "Location": "Mönchengladbach, DE",
+        "URL": "https://www.nextbike.de/xx/moenchengladbach/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_sn/gbfs.json"
+      },
+      "nextbike_ds": {
+        "Country Code": "DE",
+        "Name": "SAP Walldorf",
+        "Location": "Walldorf, DE",
+        "URL": "https://www.nextbike.de/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ds/gbfs.json"
+      },
+      "nextbike_ag": {
+        "Country Code": "DE",
+        "Name": "SWA Rad",
+        "Location": "Augsburg, DE",
+        "URL": "https://www.swa-rad.de/xx/augsburg/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ag/gbfs.json"
+      },
+      "nextbike_sz": {
+        "Country Code": "DE",
+        "Name": "sz-bike Germany",
+        "Location": "Dresden, DE",
+        "URL": "https://www.sz-bike.de/xx/dresden/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_sz/gbfs.json"
+      },
+      "nextbike_ur": {
+        "Country Code": "DE",
+        "Name": "UsedomRad Germany",
+        "Location": "Usedom, DE",
+        "URL": "http://usedomrad.de/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ur/gbfs.json"
+      },
+      "nextbike_vn": {
+        "Country Code": "DE",
+        "Name": "VRNnextbike",
+        "Location": "DE",
+        "URL": "https://www.vrnnextbike.de/xx/heidelberg/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_vn/gbfs.json"
+      },
+      "nextbike_wk": {
+        "Country Code": "DE",
+        "Name": "WK-Bike (Bremen)",
+        "Location": "Bremen, DE",
+        "URL": "https://www.wk-bike.de/xx/bremen/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_wk/gbfs.json"
+      },
+      "nextbike_dw": {
+        "Country Code": "DE",
+        "Name": "wupsiRad Leverkusen",
+        "Location": "Leverkusen, DE",
+        "URL": "https://www.wupsirad.de/xx/leverkusen/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_dw/gbfs.json"
+      },
+      "nextbike_ee": {
+        "Country Code": "EE",
+        "Name": "SIXT jalgrattarent",
+        "Location": "Tallinn, EE",
+        "URL": "http://www.sixtbicycle.ee/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ee/gbfs.json"
+      },
+      "nextbike_bo": {
+        "Country Code": "ES",
+        "Name": "Bilbaobizi (Bilbao)",
+        "Location": "Bilbao, ES",
+        "URL": "https://www.bilbaobizi.bilbao.eus/xx/bilbao/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bo/gbfs.json"
+      },
+      "nextbike_el": {
+        "Country Code": "ES",
+        "Name": "Sitycleta (Las Palmas)",
+        "Location": "Las Palmas de Gran Canaria, ES",
+        "URL": "https://www.sitycleta.com/xx/laspalmas/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_el/gbfs.json"
+      },
+      "nextbike_bu": {
+        "Country Code": "GB",
+        "Name": "BelfastBikes",
+        "Location": "Belfast, GB",
+        "URL": "https://www.belfastbikes.co.uk/xx/belfast/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bu/gbfs.json"
+      },
+      "nextbike_eu": {
+        "Country Code": "GB",
+        "Name": "Co-bikes",
+        "Location": "Exeter, GB",
+        "URL": "https://www.co-bikes.co.uk/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_eu/gbfs.json"
+      },
+      "nextbike_uc": {
+        "Country Code": "GB",
+        "Name": "nextbike Cardiff",
+        "Location": "Cardiff, GB",
+        "URL": "https://www.nextbike.co.uk/xx/cardiff/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_uc/gbfs.json"
+      },
+      "nextbike_gg": {
+        "Country Code": "GB",
+        "Name": "nextbike Glasgow",
+        "Location": "Glasgow, GB",
+        "URL": "https://www.nextbike.co.uk/xx/glasgow/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_gg/gbfs.json"
+      },
+      "nextbike_uk": {
+        "Country Code": "GB",
+        "Name": "nextbike UK",
+        "Location": "GB",
+        "URL": "https://www.nextbike.co.uk/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_uk/gbfs.json"
+      },
+      "nextbike_wm": {
+        "Country Code": "GB",
+        "Name": "nextbike West Midlands",
+        "Location": "Wolverhampton, GB",
+        "URL": "https://www.nextbike.co.uk/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_wm/gbfs.json"
+      },
+      "nextbike_ub": {
+        "Country Code": "GB",
+        "Name": "Santander Cycles - Brunel",
+        "Location": "Brunel University, GB",
+        "URL": "https://www.santandercycles.co.uk/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ub/gbfs.json"
+      },
+      "nextbike_ku": {
+        "Country Code": "GB",
+        "Name": "Santander Cycles - Milton Keynes",
+        "Location": "Milton Keynes, GB",
+        "URL": "https://www.santandercycles.co.uk/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ku/gbfs.json"
+      },
+      "nextbike_uu": {
+        "Country Code": "GB",
+        "Name": "Santander Cycles - Swansea",
+        "Location": "Swansea University, GB",
+        "URL": "https://www.santandercycles.co.uk/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_uu/gbfs.json"
+      },
+      "nextbike_gd": {
+        "Country Code": "HR",
+        "Name": "Grad Drniš (Croatia)",
+        "Location": "Drniš, HR",
+        "URL": "https://www.nextbike.hr/xx/drnis/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_gd/gbfs.json"
+      },
+      "nextbike_gs": {
+        "Country Code": "HR",
+        "Name": "Grad Gospić (Croatia)",
+        "Location": "Gospić, HR",
+        "URL": "https://www.nextbike.hr/xx/gospic/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_gs/gbfs.json"
+      },
+      "nextbike_ig": {
+        "Country Code": "HR",
+        "Name": "Grad Ivanić-Grad (Croatia)",
+        "Location": "Ivanic Grad, HR",
+        "URL": "https://www.nextbike.hr/xx/ivanicgrad/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ig/gbfs.json"
+      },
+      "nextbike_kc": {
+        "Country Code": "HR",
+        "Name": "Grad Karlovac (Croatia)",
+        "Location": "Karlovac, HR",
+        "URL": "https://www.nextbike.hr/xx/karlovac/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_kc/gbfs.json"
+      },
+      "nextbike_cm": {
+        "Country Code": "HR",
+        "Name": "Grad Metković (Croatia)",
+        "Location": "Metković, HR",
+        "URL": "https://www.nextbike.hr/xx/metkovic/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_cm/gbfs.json"
+      },
+      "nextbike_bc": {
+        "Country Code": "HR",
+        "Name": "Grad Šibenik (Croatia)",
+        "Location": "Šibenik, HR",
+        "URL": "https://www.nextbike.hr/xx/sibenik/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bc/gbfs.json"
+      },
+      "nextbike_cs": {
+        "Country Code": "HR",
+        "Name": "Grad Sisak (Croatia)",
+        "Location": "Sisak, HR",
+        "URL": "https://www.nextbike.hr/xx/sisak/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_cs/gbfs.json"
+      },
+      "nextbike_sb": {
+        "Country Code": "HR",
+        "Name": "Grad Slavonski Brod (Croatia)",
+        "Location": "Slavonski Brod, HR",
+        "URL": "https://www.nextbike.hr/xx/slavonskibrod/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_sb/gbfs.json"
+      },
+      "nextbike_cg": {
+        "Country Code": "HR",
+        "Name": "Grad Velika Gorica (Croatia)",
+        "Location": "Velika Gorica, HR",
+        "URL": "https://www.nextbike.hr/xx/velikagorica/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_cg/gbfs.json"
+      },
+      "nextbike_vu": {
+        "Country Code": "HR",
+        "Name": "Grad Vukovar (Croatia)",
+        "Location": "Vukovar, HR",
+        "URL": "https://www.nextbike.hr/xx/vukovar/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_vu/gbfs.json"
+      },
+      "nextbike_zd": {
+        "Country Code": "HR",
+        "Name": "Grad Zadar (Croatia)",
+        "Location": "Zadar, HR",
+        "URL": "https://www.nextbike.hr/xx/zadar/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_zd/gbfs.json"
+      },
+      "nextbike_hr": {
+        "Country Code": "HR",
+        "Name": "nextbike Croatia",
+        "Location": "Zagreb, HR",
+        "URL": "https://www.nextbike.hr/xx/zagreb/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_hr/gbfs.json"
+      },
+      "nextbike_br": {
+        "Country Code": "HR",
+        "Name": "Općina Brinje (Croatia)",
+        "Location": "Brinje, HR",
+        "URL": "https://www.nextbike.hr/xx/brinje/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_br/gbfs.json"
+      },
+      "nextbike_cv": {
+        "Country Code": "HR",
+        "Name": "Porec bike share (Croatia)",
+        "Location": "Poreč, HR",
+        "URL": "https://www.porecbikeshare.com/xx/porecbikeshare/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_cv/gbfs.json"
+      },
+      "nextbike_bi": {
+        "Country Code": "IN",
+        "Name": "Chartered Bike (Bhopal - India)",
+        "Location": "Bhopal, IN",
+        "URL": "http://www.charteredbike.in/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bi/gbfs.json"
+      },
+      "nextbike_ir": {
+        "Country Code": "IN",
+        "Name": "Chartered Bike (Ranchi - India)",
+        "Location": "IN",
+        "URL": "http://www.charteredbike.in/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ir/gbfs.json"
+      },
+      "nextbike_ic": {
+        "Country Code": "IN",
+        "Name": "Smartbike (Chennai - India)",
+        "Location": "Chennai, IN",
+        "URL": "https://www.smartbikemobility.com/xx/chennai/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ic/gbfs.json"
+      },
+      "nextbike_hi": {
+        "Country Code": "IN",
+        "Name": "Smartbike (Hyderabad - India)",
+        "Location": "Hyderabad, IN",
+        "URL": "https://www.smartbikemobility.com/xx/hyderabad/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_hi/gbfs.json"
+      },
+      "nextbike_in": {
+        "Country Code": "IN",
+        "Name": "Smartbike (New Delhi - India)",
+        "Location": "Delhi, IN",
+        "URL": "https://www.smartbikemobility.com/xx/delhi/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_in/gbfs.json"
+      },
+      "nextbike_vi": {
+        "Country Code": "IN",
+        "Name": "Smartbike (Vijayawada - India)",
+        "Location": "Vijayawada, IN",
+        "URL": "https://www.smartbikemobility.com/xx/vijayawada/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_vi/gbfs.json"
+      },
+      "wow_citybike": {
+        "Country Code": "IS",
+        "Name": "WOW citybike",
+        "Location": "Reykjavik, IS",
+        "URL": "https://wowcitybike.com/",
+        "Auto-Discovery URL": "https://rey.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "nextbike_bl": {
+        "Country Code": "LB",
+        "Name": "bike4all",
+        "Location": "Byblos, LB",
+        "URL": "https://www.bikeforall-lb.com/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bl/gbfs.json"
+      },
+      "nextbike_lv": {
+        "Country Code": "LV",
+        "Name": "SiXT Latvia",
+        "Location": "LV",
+        "URL": "https://www.sixtbicycle.lv/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_lv/gbfs.json"
+      },
+      "nextbike_mt": {
+        "Country Code": "MT",
+        "Name": "nextbike Malta",
+        "Location": "Malta, MT",
+        "URL": "https://www.nextbike.com.mt/xx/malta/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_mt/gbfs.json"
+      },
+      "mibici_guadalajara": {
+        "Country Code": "MX",
+        "Name": "Mibici Guadalajara",
+        "Location": "Guadalajara, MX",
+        "URL": "https://www.mibici.net/en/",
+        "Auto-Discovery URL": "https://guad.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "nextbike_nd": {
+        "Country Code": "NL",
+        "Name": "nextbike Dordrecht",
+        "Location": "Dordrecht, NL",
+        "URL": "https://www.nextbike.nl/xx/dordrecht/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_nd/gbfs.json"
+      },
+      "nextbike_nl": {
+        "Country Code": "NL",
+        "Name": "nextbike Maastricht",
+        "Location": "Maastricht, NL",
+        "URL": "https://www.nextbike.nl/xx/maastricht/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_nl/gbfs.json"
+      },
+      "bergen-city-bike": {
+        "Country Code": "NO",
+        "Name": "Bergen City Bike",
+        "Location": "Bergen, NO",
+        "URL": "https://bergenbysykkel.no/en",
+        "Auto-Discovery URL": "https://gbfs.urbansharing.com/bergenbysykkel.no/gbfs.json"
+      },
+      "oslobysykkel": {
+        "Country Code": "NO",
+        "Name": "Oslo City Bike",
+        "Location": "Oslo, NO",
+        "URL": "https://oslobysykkel.no/en",
+        "Auto-Discovery URL": "https://gbfs.urbansharing.com/oslobysykkel.no/gbfs.json"
+      },
+      "trondheim": {
+        "Country Code": "NO",
+        "Name": "Trondheim City Bike",
+        "Location": "Trondheim, NO",
+        "URL": "https://trondheimbysykkel.no/en",
+        "Auto-Discovery URL": "https://gbfs.urbansharing.com/trondheimbysykkel.no/gbfs.json"
+      },
+      "nextbike_nz": {
+        "Country Code": "NZ",
+        "Name": "nextbike New Zealand",
+        "Location": "NZ",
+        "URL": "https://www.nextbike.co.nz/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_nz/gbfs.json"
+      },
+      "nextbike_bp": {
+        "Country Code": "PL",
+        "Name": "BIKER Białystok Poland",
+        "Location": "PL",
+        "URL": "https://www.bikerbialystok.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bp/gbfs.json"
+      },
+      "nextbike_sp": {
+        "Country Code": "PL",
+        "Name": "Bike_S SRM Poland",
+        "Location": "Szczecin, PL",
+        "URL": "https://bikes-srm.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_sp/gbfs.json"
+      },
+      "nextbike_jp": {
+        "Country Code": "PL",
+        "Name": "Częstochowski Rower Miejski Poland",
+        "Location": "Częstochowa, PL",
+        "URL": "https://rower.czestochowa.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_jp/gbfs.json"
+      },
+      "nextbike_gm": {
+        "Country Code": "PL",
+        "Name": "Gliwicki Rower Miejski (SGRM) Poland",
+        "Location": "Gliwice, PL",
+        "URL": "https://gliwickirower.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_gm/gbfs.json"
+      },
+      "nextbike_gp": {
+        "Country Code": "PL",
+        "Name": "GRM Grodzisk Poland",
+        "Location": "Grodzisk Mazowiecki, PL",
+        "URL": "http://www.rowery.grodzisk.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_gp/gbfs.json"
+      },
+      "nextbike_pv": {
+        "Country Code": "PL",
+        "Name": "Kajteroz - Chorzowski Rower Miejski Poland",
+        "Location": "Chorzów, PL",
+        "URL": "https://kajteroz.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pv/gbfs.json"
+      },
+      "nextbike_pk": {
+        "Country Code": "PL",
+        "Name": "Kaliski Rower Miejski Poland",
+        "Location": "Kalisz, PL",
+        "URL": "https://www.kaliskirowermiejski.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pk/gbfs.json"
+      },
+      "nextbike_kw": {
+        "Country Code": "PL",
+        "Name": "Katowice Bike Poland",
+        "Location": "PL",
+        "URL": "http://www.citybybike.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_kw/gbfs.json"
+      },
+      "nextbike_kr": {
+        "Country Code": "PL",
+        "Name": "Kołobrzeski Rower Miejski Poland",
+        "Location": "Kołobrzeg, PL",
+        "URL": "https://kolobrzeskirower.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_kr/gbfs.json"
+      },
+      "nextbike_mk": {
+        "Country Code": "PL",
+        "Name": "Koło Marek (Poland)",
+        "Location": "Marki, PL",
+        "URL": "https://kolomarek.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_mk/gbfs.json"
+      },
+      "nextbike_pn": {
+        "Country Code": "PL",
+        "Name": "Koniński Rower Miejski Poland",
+        "Location": "Konin, PL",
+        "URL": "https://koninskirower.pl/xx/konin/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pn/gbfs.json"
+      },
+      "nextbike_ps": {
+        "Country Code": "PL",
+        "Name": "Koszaliński Rower Miejski Poland",
+        "Location": "Koszalin, PL",
+        "URL": "https://www.koszalinskirowermiejski.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ps/gbfs.json"
+      },
+      "nextbike_op": {
+        "Country Code": "PL",
+        "Name": "KRM Konstanciński Poland",
+        "Location": "Konstancin Jeziorna, PL",
+        "URL": "https://www.konstancinskirower.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_op/gbfs.json"
+      },
+      "nextbike_lp": {
+        "Country Code": "PL",
+        "Name": "Łódzki Rower Publiczny Poland",
+        "Location": "PL",
+        "URL": "http://www.lodzkirowerpubliczny.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_lp/gbfs.json"
+      },
+      "nextbike_ln": {
+        "Country Code": "PL",
+        "Name": "LRM Lublin Poland",
+        "Location": "PL",
+        "URL": "https://www.lubelskirower.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ln/gbfs.json"
+      },
+      "nextbike_km": {
+        "Country Code": "PL",
+        "Name": "OK Bike Poland",
+        "Location": "Kędzierzyn-Koźle, PL",
+        "URL": "https://okbike.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_km/gbfs.json"
+      },
+      "nextbike_pi": {
+        "Country Code": "PL",
+        "Name": "Piaseczyński Rower Miejski Poland",
+        "Location": "Piaseczno, PL",
+        "URL": "https://www.piaseczynskirower.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pi/gbfs.json"
+      },
+      "nextbike_ep": {
+        "Country Code": "PL",
+        "Name": "Płocki Rower Miejski (PRM) Poland",
+        "Location": "Płock, PL",
+        "URL": "https://plockirowermiejski.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ep/gbfs.json"
+      },
+      "nextbike_pu": {
+        "Country Code": "PL",
+        "Name": "Pobiedziski Rower Gminny Poland",
+        "Location": "Pobiedziska, PL",
+        "URL": "https://rowery.pobiedziska.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pu/gbfs.json"
+      },
+      "nextbike_pb": {
+        "Country Code": "PL",
+        "Name": "PRM Poznan Poland",
+        "Location": "PL",
+        "URL": "http://www.poznanskirower.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pb/gbfs.json"
+      },
+      "nextbike_rp": {
+        "Country Code": "PL",
+        "Name": "Radomski Rower Miejski Poland",
+        "Location": "PL",
+        "URL": "https://radomskirowermiejski.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_rp/gbfs.json"
+      },
+      "nextbike_mw": {
+        "Country Code": "PL",
+        "Name": "Rower Gminny Michałowice Poland",
+        "Location": "Michałowice, PL",
+        "URL": "https://rower.michalowice.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_mw/gbfs.json"
+      },
+      "nextbike_rm": {
+        "Country Code": "PL",
+        "Name": "Rower Miejski Szamotuły Poland (RMS) Poland",
+        "Location": "Szamotuły, PL",
+        "URL": "https://szamotuly.bike/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_rm/gbfs.json"
+      },
+      "nextbike_po": {
+        "Country Code": "PL",
+        "Name": "Rower Miejski w Ostrowie Wielkopolskim Poland",
+        "Location": "Ostrów Wielkopolski, PL",
+        "URL": "https://ostrowskirowermiejski.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_po/gbfs.json"
+      },
+      "nextbike_pw": {
+        "Country Code": "PL",
+        "Name": "Rowerowe Łódzkie Poland (RL)",
+        "Location": "PL",
+        "URL": "https://rowerowelodzkie.pl",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pw/gbfs.json"
+      },
+      "nextbike_pr": {
+        "Country Code": "PL",
+        "Name": "Sosnowiecki Rower Miejski Poland",
+        "Location": "Sosnowiec, PL",
+        "URL": "https://sosnowieckirowermiejski.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pr/gbfs.json"
+      },
+      "nextbike_mp": {
+        "Country Code": "PL",
+        "Name": "System Legnicki Rower Miejski (SLRM) Poland",
+        "Location": "Legnica, PL",
+        "URL": "https://rower.legnica.eu/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_mp/gbfs.json"
+      },
+      "nextbike_ap": {
+        "Country Code": "PL",
+        "Name": "System Rowerów Miejskich w Pszczynie Poland",
+        "Location": "Pszczyna, PL",
+        "URL": "https://www.pszczynskirower.pl/xx/pszczyna/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ap/gbfs.json"
+      },
+      "nextbike_pg": {
+        "Country Code": "PL",
+        "Name": "System Roweru Gminnego Poland",
+        "Location": "Pielgrzymka, PL",
+        "URL": "https://rowery.pielgrzymka.biz/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pg/gbfs.json"
+      },
+      "nextbike_tn": {
+        "Country Code": "PL",
+        "Name": "Tarnowski Rower Miejski (Poland)",
+        "Location": "Tarnów, PL",
+        "URL": "http://rower.tarnow.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_tn/gbfs.json"
+      },
+      "nextbike_pt": {
+        "Country Code": "PL",
+        "Name": "Tyski Rower Miejski Poland",
+        "Location": "Tychy, PL",
+        "URL": "https://www.tyskirower.pl/xx/tychy/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pt/gbfs.json"
+      },
+      "nextbike_vp": {
+        "Country Code": "PL",
+        "Name": "VETURILO Poland",
+        "Location": "PL",
+        "URL": "https://veturilo.waw.pl",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_vp/gbfs.json"
+      },
+      "nextbike_pl": {
+        "Country Code": "PL",
+        "Name": "WRM nextbike Poland",
+        "Location": "Wrocław, PL",
+        "URL": "http://www.wroclawskirower.pl/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pl/gbfs.json"
+      },
+      "nextbike_sa": {
+        "Country Code": "SA",
+        "Name": "iBike ( Saudi Arabia )",
+        "Location": "King Abdullah Economic City, SA",
+        "URL": "https://ibike.kaec.net/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_sa/gbfs.json"
+      },
+      "edinburgh-city-bikes": {
+        "Country Code": "SC",
+        "Name": "Just Eat Cycles",
+        "Location": "Edinburgh, SC",
+        "URL": "https://edinburghcyclehire.com/",
+        "Auto-Discovery URL": "https://gbfs.urbansharing.com/edinburghcyclehire.com/gbfs.json"
+      },
+      "nextbike_cn": {
+        "Country Code": "SI",
+        "Name": "NomagoBikes (Slovenia)",
+        "Location": "SI",
+        "URL": "https://bikes.nomago.si/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_cn/gbfs.json"
+      },
+      "nextbike_as": {
+        "Country Code": "SK",
+        "Name": "Arriva Nitra Slovakia",
+        "Location": "Nitra, SK",
+        "URL": "https://arriva.bike/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_as/gbfs.json"
+      },
+      "nextbike_ak": {
+        "Country Code": "SK",
+        "Name": "BikeKIA",
+        "Location": "Žilina, SK",
+        "URL": "https://bikekia.sk/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ak/gbfs.json"
+      },
+      "nextbike_nk": {
+        "Country Code": "TR",
+        "Name": "nextbike Konya",
+        "Location": "Konya, TR",
+        "URL": "https://www.nextbike.com.tr/xx/konya/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_nk/gbfs.json"
+      },
+      "nextbike_ot": {
+        "Country Code": "TR",
+        "Name": "Ordu Bisikletli Turkey",
+        "Location": "Ordu, TR",
+        "URL": "https://ordu.nextbike.com.tr/xx/ordu/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_ot/gbfs.json"
+      },
+      "nextbike_kv": {
+        "Country Code": "UA",
+        "Name": "nextbike Kyiv (Ukraine)",
+        "Location": "Kyiv, UA",
+        "URL": "https://www.nextbike.ua/xx/kyiv/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_kv/gbfs.json"
+      },
+      "nextbike_nu": {
+        "Country Code": "UA",
+        "Name": "nextbike (Ukraine)",
+        "Location": "UA",
+        "URL": "https://www.nextbike.ua/xx/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_nu/gbfs.json"
+      },
+      "nextbike_uv": {
+        "Country Code": "UA",
+        "Name": "nextbike Vinnitsa (Ukraine)",
+        "Location": "Vinnytsia, UA",
+        "URL": "https://www.nextbike.ua/xx/Vinnytsia/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_uv/gbfs.json"
+      },
+      "bcycle_arborbike": {
+        "Country Code": "US",
+        "Name": "ArborBike",
+        "Location": "Ann Arbor, MI",
+        "URL": "http://arborbike.org",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_arborbike/gbfs.json"
+      },
+      "bcycle_austin": {
+        "Country Code": "US",
+        "Name": "Austin B-cycle",
+        "Location": "Austin, TX",
+        "URL": "http://austinbcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_austin/gbfs.json"
+      },
+      "bcycle_aventura": {
+        "Country Code": "US",
+        "Name": "Aventura BCycle",
+        "Location": "Aventura, FL",
+        "URL": "https://aventura.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_aventura/gbfs.json"
+      },
+      "bcycle_battlecreek": {
+        "Country Code": "US",
+        "Name": "Battle Creek B-cycle",
+        "Location": "Battle Creek, MI",
+        "URL": "https://battlecreek.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_battlecreek/gbfs.json"
+      },
+      "bike_chattanooga": {
+        "Country Code": "US",
+        "Name": "Bike Chattanooga",
+        "Location": "Chattanooga, TN",
+        "URL": "http://www.bikechattanooga.com/",
+        "Auto-Discovery URL": "https://chat.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bcycle_bikelnk": {
+        "Country Code": "US",
+        "Name": "BikeLNK",
+        "Location": "Lincoln, NE",
+        "URL": "https://bikelnk.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_bikelnk/gbfs.json"
+      },
+      "bikeshare_kona": {
+        "Country Code": "US",
+        "Name": "Bikeshare Kona",
+        "Location": "Kona, HI",
+        "URL": "https://hawaiiislandbikeshare.org/",
+        "Auto-Discovery URL": "https://kona.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "biketown_pdx": {
+        "Country Code": "US",
+        "Name": "BIKETOWN",
+        "Location": "Portland, OR",
+        "URL": "https://www.biketownpdx.com/",
+        "Auto-Discovery URL": "http://biketownpdx.socialbicycles.com/opendata/gbfs.json"
+      },
+      "go_biki": {
+        "Country Code": "US",
+        "Name": "Biki",
+        "Location": "Honolulu, HI",
+        "URL": "https://gobiki.org/",
+        "Auto-Discovery URL": "https://hon.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bishop_ranch": {
+        "Country Code": "US",
+        "Name": "Bishop Ranch BRiteBikes",
+        "Location": "San Ramon, CA",
+        "URL": "http://britebikes.socialbicycles.com/",
+        "Auto-Discovery URL": "http://britebikes.socialbicycles.com/opendata/gbfs.json"
+      },
+      "boise_greenbike": {
+        "Country Code": "US",
+        "Name": "Boise Green Bike",
+        "Location": "Boise, ID",
+        "URL": "http://boise.greenbike.com/",
+        "Auto-Discovery URL": "http://boise.greenbike.com/opendata/gbfs.json"
+      },
+      "bcycle_boulder": {
+        "Country Code": "US",
+        "Name": "Boulder B-cycle",
+        "Location": "Boulder, CO",
+        "URL": "https://boulder.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_boulder/gbfs.json"
+      },
+      "breeze_bikeshare": {
+        "Country Code": "US",
+        "Name": "Breeze Bike Share",
+        "Location": "Santa Monica, CA",
+        "URL": "http://santamonicabikeshare.com/",
+        "Auto-Discovery URL": "http://santamonicabikeshare.com/opendata/gbfs.json"
+      },
+      "bcycle_broward": {
+        "Country Code": "US",
+        "Name": "Broward B-cycle",
+        "Location": "Fort Lauderdale, FL",
+        "URL": "https://broward.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_broward/gbfs.json"
+      },
+      "bcycle_bublr": {
+        "Country Code": "US",
+        "Name": "Bublr Bikes",
+        "Location": "Milwaukee, WI",
+        "URL": "http://bublrbikes.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_bublr/gbfs.json"
+      },
+      "cabi": {
+        "Country Code": "US",
+        "Name": "Capital Bike Share",
+        "Location": "Washington, DC",
+        "URL": "http://www.capitalbikeshare.com",
+        "Auto-Discovery URL": "https://gbfs.capitalbikeshare.com/gbfs/gbfs.json"
+      },
+      "bcycle_charlotte": {
+        "Country Code": "US",
+        "Name": "Charlotte B-cycle",
+        "Location": "Charlotte, NC",
+        "URL": "https://charlotte.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_charlotte/gbfs.json"
+      },
+      "bcycle_cincyredbike": {
+        "Country Code": "US",
+        "Name": "Cincy Red Bike",
+        "Location": "Cincinnati, OH",
+        "URL": "http://www.cincyredbike.org",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_cincyredbike/gbfs.json"
+      },
+      "NYC": {
+        "Country Code": "US",
+        "Name": "Citi Bike",
+        "Location": "NYC, NY",
+        "URL": "https://www.citibikenyc.com",
+        "Auto-Discovery URL": "https://gbfs.citibikenyc.com/gbfs/gbfs.json"
+      },
+      "bcycle_clarksville": {
+        "Country Code": "US",
+        "Name": "Clarksville B-cycle",
+        "Location": "Clarksville, TN",
+        "URL": "https://clarksville.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_clarksville/gbfs.json"
+      },
+      "bcycle_clemson": {
+        "Country Code": "US",
+        "Name": "Clemson BikeShare",
+        "Location": "Clemson, SC",
+        "URL": "https://clemson.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_clemson/gbfs.json"
+      },
+      "coast_bike_share": {
+        "Country Code": "US",
+        "Name": "Coast Bike Share",
+        "Location": "Tampa, FL",
+        "URL": "http://coastbikeshare.com/",
+        "Auto-Discovery URL": "http://coast.socialbicycles.com/opendata/gbfs.json"
+      },
+      "cogo": {
+        "Country Code": "US",
+        "Name": "CoGo",
+        "Location": "Columbus, OH",
+        "URL": "http://www.cogobikeshare.com/",
+        "Auto-Discovery URL": "https://gbfs.cogobikeshare.com/gbfs/gbfs.json"
+      },
+      "bcycle_columbiacounty": {
+        "Country Code": "US",
+        "Name": "Columbia County B-cycle",
+        "Location": "Evans, GA",
+        "URL": "https://columbiacounty.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_columbiacounty/gbfs.json"
+      },
+      "bcycle_columbike": {
+        "Country Code": "US",
+        "Name": "columbike",
+        "Location": "Columbus, IN",
+        "URL": "https://columbike.bcycle.com/",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_columbike/gbfs.json"
+      },
+      "bcycle_denver": {
+        "Country Code": "US",
+        "Name": "Denver B-cycle",
+        "Location": "Denver, CO",
+        "URL": "https://denver.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_denver/gbfs.json"
+      },
+      "bcycle_desmoines": {
+        "Country Code": "US",
+        "Name": "Des Moines B-cycle",
+        "Location": "Des Moines, IA",
+        "URL": "https://desmoines.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_desmoines/gbfs.json"
+      },
+      "divvy": {
+        "Country Code": "US",
+        "Name": "Divvy",
+        "Location": "Chicago, IL",
+        "URL": "http://www.divvybikes.com/",
+        "Auto-Discovery URL": "https://gbfs.divvybikes.com/gbfs/gbfs.json"
+      },
+      "bcycle_elpaso": {
+        "Country Code": "US",
+        "Name": "El Paso B-cycle",
+        "Location": "El Paso, TX",
+        "URL": "https://elpaso.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_elpaso/gbfs.json"
+      },
+      "bcycle_memphis": {
+        "Country Code": "US",
+        "Name": "Explore Bike Share",
+        "Location": "Memphis, TN",
+        "URL": "https://explorebikeshare.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_memphis/gbfs.json"
+      },
+      "BA": {
+        "Country Code": "US",
+        "Name": "Ford GoBike",
+        "Location": "San Francisco Bay Area, CA",
+        "URL": "https://www.fordgobike.com/",
+        "Auto-Discovery URL": "https://gbfs.fordgobike.com/gbfs/gbfs.json"
+      },
+      "bcycle_fortworth": {
+        "Country Code": "US",
+        "Name": "Fort Worth Bike Sharing",
+        "Location": "Fort Worth, TX",
+        "URL": "https://fortworth.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_fortworth/gbfs.json"
+      },
+      "bcycle_greatrides": {
+        "Country Code": "US",
+        "Name": "Great Rides Bike Share",
+        "Location": "Fargo, ND",
+        "URL": "https://greatrides.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_greatrides/gbfs.json"
+      },
+      "bcycle_greenbikeslc": {
+        "Country Code": "US",
+        "Name": "GREENbike",
+        "Location": "Salt Lake City, UT",
+        "URL": "https://greenbikeslc.org",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_greenbikeslc/gbfs.json"
+      },
+      "bcycle_greenville": {
+        "Country Code": "US",
+        "Name": "Greenville B-cycle",
+        "Location": "Greenville, SC",
+        "URL": "https://greenville.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_greenville/gbfs.json"
+      },
+      "grid_bike_share": {
+        "Country Code": "US",
+        "Name": "Grid Bike Share",
+        "Location": "Phoenix, AZ",
+        "URL": "http://gridbikes.com/",
+        "Auto-Discovery URL": "https://grid.socialbicycles.com/opendata/gbfs.json"
+      },
+      "nextbike_pp": {
+        "Country Code": "US",
+        "Name": "Healthy Ride Pittsburgh",
+        "Location": "Pittsburgh, US",
+        "URL": "https://healthyridepgh.com/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_pp/gbfs.json"
+      },
+      "bcycle_heartland": {
+        "Country Code": "US",
+        "Name": "Heartland B-cycle",
+        "Location": "Omaha, NE",
+        "URL": "https://heartland.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_heartland/gbfs.json"
+      },
+      "bcycle_houston": {
+        "Country Code": "US",
+        "Name": "Houston B-cycle",
+        "Location": "Houston, TX",
+        "URL": "https://houston.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_houston/gbfs.json"
+      },
+      "hubway": {
+        "Country Code": "US",
+        "Name": "Hubway",
+        "Location": "Boston, MA",
+        "URL": "https://www.thehubway.com",
+        "Auto-Discovery URL": "https://gbfs.thehubway.com/gbfs/gbfs.json"
+      },
+      "bcycle_indego": {
+        "Country Code": "US",
+        "Name": "Indego",
+        "Location": "Philadelphia, PA",
+        "URL": "https://www.rideindego.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_indego/gbfs.json"
+      },
+      "bcycle_pacersbikeshare": {
+        "Country Code": "US",
+        "Name": "Indy - Pacers Bikeshare",
+        "Location": "Indianapolis, IN",
+        "URL": "https://www.pacersbikeshare.org",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_pacersbikeshare/gbfs.json"
+      },
+      "bcycle_jacksoncounty": {
+        "Country Code": "US",
+        "Name": "Jackson County",
+        "Location": "Jackson, MI",
+        "URL": "https://jacksoncounty.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_jacksoncounty/gbfs.json"
+      },
+      "nextbike_nj": {
+        "Country Code": "US",
+        "Name": "JerseyBike",
+        "Location": "US",
+        "URL": "https://www.hudsonbikeshare.com/xx/hoboken/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_nj/gbfs.json"
+      },
+      "jump_austin": {
+        "Country Code": "US",
+        "Name": "JUMP Austin",
+        "Location": "Austin, TX",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://atx.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_chicago": {
+        "Country Code": "US",
+        "Name": "JUMP Chicago",
+        "Location": "Chicago, IL",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://chi.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_dc": {
+        "Country Code": "US",
+        "Name": "JUMP DC",
+        "Location": "Washington, DC",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://dc.jumpmobility.com/opendata/gbfs.json"
+      },
+      "jump_denver": {
+        "Country Code": "US",
+        "Name": "JUMP Denver",
+        "Location": "Denver, CO",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://den.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_la": {
+        "Country Code": "US",
+        "Name": "JUMP LA",
+        "Location": "Los Angeles, CA",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://la.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_nyc": {
+        "Country Code": "US",
+        "Name": "JUMP NYC",
+        "Location": "NYC, NY",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://nyc.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_providence": {
+        "Country Code": "US",
+        "Name": "JUMP Providence",
+        "Location": "Providence, RI",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://pvd.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_sacramento": {
+        "Country Code": "US",
+        "Name": "JUMP Sacramento",
+        "Location": "Sacramento, CA",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://sac.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_san_diego": {
+        "Country Code": "US",
+        "Name": "JUMP San Diego",
+        "Location": "San Diego, CA",
+        "URL": "https://jump.com",
+        "Auto-Discovery URL": "https://san.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_sc": {
+        "Country Code": "US",
+        "Name": "JUMP SC",
+        "Location": "Santa Cruz, CA",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://sc.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_seattle": {
+        "Country Code": "US",
+        "Name": "JUMP Seattle",
+        "Location": "Seattle, WA",
+        "URL": "https://jump.com",
+        "Auto-Discovery URL": "https://sea.jumpbikes.com/opendata/gbfs.json"
+      },
+      "jump_sf": {
+        "Country Code": "US",
+        "Name": "JUMP SF",
+        "Location": "San Francisco, CA",
+        "URL": "https://jump.com/",
+        "Auto-Discovery URL": "https://sf.jumpbikes.com/opendata/gbfs.json"
+      },
+      "bcycle_kc": {
+        "Country Code": "US",
+        "Name": "Kansas City B-cycle",
+        "Location": "Kansas City, MO",
+        "URL": "https://kc.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_kc/gbfs.json"
+      },
+      "lime_arlington": {
+        "Country Code": "US",
+        "Name": "Lime Arlington",
+        "Location": "Arlington, VA",
+        "URL": "https://www.li.me/",
+        "Auto-Discovery URL": "https://data.lime.bike/api/partners/v1/gbfs/arlington/gbfs.json"
+      },
+      "lime_chicago": {
+        "Country Code": "US",
+        "Name": "Lime Chicago",
+        "Location": "Chicago, IL",
+        "URL": "https://www.li.me/",
+        "Auto-Discovery URL": "https://data.lime.bike/api/partners/v1/gbfs/chicago/gbfs.json"
+      },
+      "lime_detroit": {
+        "Country Code": "US",
+        "Name": "Lime Detroit",
+        "Location": "Detroit, MI",
+        "URL": "https://www.li.me/",
+        "Auto-Discovery URL": "https://data.lime.bike/api/partners/v1/gbfs/detroit/gbfs.json"
+      },
+      "lime_los_angeles": {
+        "Country Code": "US",
+        "Name": "Lime Los Angeles",
+        "Location": "Los Angeles, CA",
+        "URL": "https://www.li.me/",
+        "Auto-Discovery URL": "https://data.lime.bike/api/partners/v1/gbfs/los_angeles/gbfs.json"
+      },
+      "lime_louisville": {
+        "Country Code": "US",
+        "Name": "Lime Louisville",
+        "Location": "Louisville, KY",
+        "URL": "https://www.li.me/",
+        "Auto-Discovery URL": "https://data.lime.bike/api/partners/v1/gbfs/louisville/gbfs.json"
+      },
+      "lime_new_york": {
+        "Country Code": "US",
+        "Name": "Lime New York",
+        "Location": "New York, NY",
+        "URL": "https://www.li.me/",
+        "Auto-Discovery URL": "https://data.lime.bike/api/partners/v1/gbfs/new_york/gbfs.json"
+      },
+      "lime_washington_dc": {
+        "Country Code": "US",
+        "Name": "Lime Washington DC",
+        "Location": "Washington, DC",
+        "URL": "https://www.li.me/",
+        "Auto-Discovery URL": "https://data.lime.bike/api/partners/v1/gbfs/washington_dc/gbfs.json"
+      },
+      "bcycle_linkdayton": {
+        "Country Code": "US",
+        "Name": "Link Dayton Bike Share",
+        "Location": "Dayton, OH",
+        "URL": "https://www.linkdayton.org",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_linkdayton/gbfs.json"
+      },
+      "Louvelo": {
+        "Country Code": "US",
+        "Name": "Louvelo",
+        "Location": "Louisville, KY",
+        "URL": "https://louvelo.com/",
+        "Auto-Discovery URL": "https://lou.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "lyft_dca": {
+        "Country Code": "US",
+        "Name": "Lyft",
+        "Location": "Washington, DC",
+        "URL": "https://www.lyft.com/scooters/washington-dc",
+        "Auto-Discovery URL": "https://s3.amazonaws.com/lyft-lastmile-production-iad/lbs/dca/gbfs.json"
+      },
+      "bcycle_madison": {
+        "Country Code": "US",
+        "Name": "Madison B-cycle",
+        "Location": "Madison, WI",
+        "URL": "https://madison.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_madison/gbfs.json"
+      },
+      "bcycle_mcallen": {
+        "Country Code": "US",
+        "Name": "McAllen B-cycle",
+        "Location": "McAllen, TX",
+        "URL": "https://mcallen.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_mcallen/gbfs.json"
+      },
+      "bcycle_lametro": {
+        "Country Code": "US",
+        "Name": "Metro Bike Share",
+        "Location": "Los Angeles, CA",
+        "URL": "https://bikeshare.metro.net",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_lametro/gbfs.json"
+      },
+      "mogo": {
+        "Country Code": "US",
+        "Name": "Mogo Detroit",
+        "Location": "Detroit, MI",
+        "URL": "https://mogodetroit.org/",
+        "Auto-Discovery URL": "https://det.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "bcycle_nashville": {
+        "Country Code": "US",
+        "Name": "Nashville B-cycle",
+        "Location": "Nashville, TN",
+        "URL": "https://nashville.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_nashville/gbfs.json"
+      },
+      "niceridemn": {
+        "Country Code": "US",
+        "Name": "Nice Ride Minnesota",
+        "Location": "Minneapolis - Saint Paul, MN",
+        "URL": "https://www.niceridemn.com",
+        "Auto-Discovery URL": "https://gbfs.niceridemn.com/gbfs/gbfs.json"
+      },
+      "bcycle_spokies": {
+        "Country Code": "US",
+        "Name": "OKC Spokies",
+        "Location": "Oklahoma City, OK",
+        "URL": "http://spokiesokc.com/",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_spokies/gbfs.json"
+      },
+      "bcycle_coloradosprings": {
+        "Country Code": "US",
+        "Name": "Pike Ride",
+        "Location": "Colorado Springs, CO",
+        "URL": "https://coloradosprings.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_coloradosprings/gbfs.json"
+      },
+      "bcycle_rapidcity": {
+        "Country Code": "US",
+        "Name": "Rapid City B-cycle",
+        "Location": "Rapid City, SD",
+        "URL": "https://rapidcity.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_rapidcity/gbfs.json"
+      },
+      "reddy_bikeshare": {
+        "Country Code": "US",
+        "Name": "Reddy Bike Share",
+        "Location": "Buffalo, NY",
+        "URL": "https://reddybikeshare.socialbicycles.com/",
+        "Auto-Discovery URL": "https://reddybikeshare.socialbicycles.com/opendata/gbfs.json"
+      },
+      "relay_bike_share": {
+        "Country Code": "US",
+        "Name": "Relay Bike Share",
+        "Location": "Atlanta, GA",
+        "URL": "http://relaybikeshare.com/",
+        "Auto-Discovery URL": "https://relaybikeshare.socialbicycles.com/opendata/gbfs.json"
+      },
+      "bcycle_rtcbikeshare": {
+        "Country Code": "US",
+        "Name": "RTC Bike Share",
+        "Location": "Las Vegas, NV",
+        "URL": "https://rtcbikeshare.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_rtcbikeshare/gbfs.json"
+      },
+      "bcycle_sanantonio": {
+        "Country Code": "US",
+        "Name": "San Antonio B-cycle",
+        "Location": "San Antonio, TX",
+        "URL": "https://sanantonio.bcycle.com/",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_sanantonio/gbfs.json"
+      },
+      "bcycle_catbike": {
+        "Country Code": "US",
+        "Name": "Savannah",
+        "Location": "Savannah, GA",
+        "URL": "https://catbike.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_catbike/gbfs.json"
+      },
+      "nextbike_wb": {
+        "Country Code": "US",
+        "Name": "Skybike West Palm Beach",
+        "Location": "West Palm Beach Florida, US",
+        "URL": "https://skybikewpb.com/",
+        "Auto-Discovery URL": "https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_wb/gbfs.json"
+      },
+      "sobi_long_beach": {
+        "Country Code": "US",
+        "Name": "Sobi Long Beach",
+        "Location": "Long Beach, NY",
+        "URL": "http://sobilongbeach.com/",
+        "Auto-Discovery URL": "http://sobilongbeach.com/opendata/gbfs.json"
+      },
+      "bcycle_spartanburg": {
+        "Country Code": "US",
+        "Name": "Spartanburg BCycle",
+        "Location": "Spartanburg, SC",
+        "URL": "https://spartanburg.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_spartanburg/gbfs.json"
+      },
+      "spin detroit": {
+        "Country Code": "US",
+        "Name": "Spin Detroit",
+        "Location": "Detroit, MI",
+        "URL": "https://www.spin.pm/",
+        "Auto-Discovery URL": "https://web.spin.pm/api/gbfs/v1/detroit/gbfs"
+      },
+      "spin washington_dc": {
+        "Country Code": "US",
+        "Name": "Spin Washington DC",
+        "Location": "Washington, DC",
+        "URL": "https://www.spin.pm/",
+        "Auto-Discovery URL": "https://web.spin.pm/api/gbfs/v1/washington_dc/gbfs"
+      },
+      "bcycle_startbike": {
+        "Country Code": "US",
+        "Name": "START Bike",
+        "Location": "Jackson, WY",
+        "URL": "https://startbike.bcycle.com",
+        "Auto-Discovery URL": "https://gbfs.bcycle.com/bcycle_startbike/gbfs.json"
+      },
+      "topeka_metro_bikes": {
+        "Country Code": "US",
+        "Name": "Topeka Metro Bikes",
+        "Location": "Topeka, KS",
+        "URL": "http://topekametrobikes.org/",
+        "Auto-Discovery URL": "http://topekametrobikes.org/opendata/gbfs.json"
+      },
+      "tugo": {
+        "Country Code": "US",
+        "Name": "Tugo",
+        "Location": "Tucson, AZ",
+        "URL": "https://tugobikeshare.com/",
+        "Auto-Discovery URL": "https://tuc.publicbikesystem.net/ube/gbfs/v1/"
+      },
+      "university_of_virginia": {
+        "Country Code": "US",
+        "Name": "Ubike",
+        "Location": "University of Virginia",
+        "URL": "http://ubike.virginia.edu/",
+        "Auto-Discovery URL": "http://ubike.virginia.edu/opendata/gbfs.json"
+      },
+      "we_cycle": {
+        "Country Code": "US",
+        "Name": "We-cycle",
+        "Location": "Aspen, CO",
+        "URL": "https://www.we-cycle.org/",
+        "Auto-Discovery URL": "https://asp.publicbikesystem.net/ube/gbfs/v1/"
+      }
+    }
   }
 }

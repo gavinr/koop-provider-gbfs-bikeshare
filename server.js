@@ -6,7 +6,7 @@ process.on('SIGTERM', () => process.exit(0))
 const Koop = require('koop')
 const koop = new Koop()
 
-// Install the Sample Provider
+// Install the Provider
 const provider = require('./')
 koop.register(provider)
 
@@ -21,12 +21,12 @@ if (process.env.DEPLOY === 'export') {
 
   const message = `
 
-  Koop Sample Provider listening on ${port}
+  Koop GBFS Bikeshare Provider listening on ${port}
   For more docs visit: https://koopjs.github.io/docs/usage/provider
   To find providers visit: https://www.npmjs.com/search?q=koop+provider
 
-  Try it out in your browser: http://localhost:${port}/${provider.name}/FeatureServer/0/query
-  Or on the command line: curl --silent http://localhost:${port}/${provider.name}/FeatureServer/0/query?returnCountOnly=true
+  Try it out in your browser: http://localhost:${port}/${provider.name}/jump_san_diego/FeatureServer/0/query
+  Or on the command line: curl --silent http://localhost:${port}/${provider.name}/jump_san_diego/FeatureServer/0/query?returnCountOnly=true
 
   Press control + c to exit
   `

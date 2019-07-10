@@ -11,8 +11,8 @@
 // e.g. /sample/FeatureServer/0/query
 const provider = {
   type: 'provider',
-  name: 'sample',
-  hosts: false, // if true, also adds disableIdParam
+  name: 'gbfs-bikeshare',
+  hosts: true, // if true, also adds disableIdParam
   disableIdParam: true, // if true, adds to path and req.params
   Controller: require('./controller'),
   Model: require('./model'),
